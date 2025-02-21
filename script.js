@@ -1,1 +1,2 @@
-alert('Manejando errores');
+console.log('Trabajando en la rama main');
+

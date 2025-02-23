@@ -13,20 +13,3 @@ Database Management coming soon
 🔹 Interests: Frontend development, logic programming, web technologies, and continuous learning
 
 📫 Let's connect! I'm always open to sharing ideas and learning together.
-
-
-
-
-
-
-
-
-
-
-
-
-Buscar
-
-Razona
-
-ChatGPT puede cometer errores. Considera verificar la información importante.

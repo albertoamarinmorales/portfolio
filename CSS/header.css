@@ -1,0 +1,72 @@
+
+header{
+    font-family: 'Electroharmonix';
+    width: 100%;
+    height: 70vh;
+    border:solid 1px black;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow:hidden ;
+    background: #171717;
+    /* color:#8e05ce;
+    text-shadow: #6f00a2 0px 0px 3px, #9144b4 0px 0px 5px, #a993b3 0px 0px 7px,#a487c1 0px 0px 9px ; */
+    font-weight: 800;
+    font-size: 1.85rem;
+    text-align: justify;
+    user-select: none;
+    color:black;
+    transition: color 0.5s;
+}
+
+nav{
+    position: absolute;
+    top:65%;
+    left: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 80px;
+    border:solid 1px green;
+    z-index: 9999;
+}
+nav div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 25%;
+    border:solid green 1px;
+    background-color: white;
+}
+a{
+    display: flex;
+    align-items: center;
+    border: solid yellow 1px;
+}
+
+.letterPurple{
+    color: #8e05ce;
+    text-shadow: #6f00a2 0px 0px 3px, #9144b4 0px 0px 5px, #a993b3 0px 0px 7px,#a487c1 0px 0px 9px ;
+    transition: all 0.5s;
+}
+.letterBlue{
+    color: #0b32a8;
+    text-shadow: #0b32a8 0px 0px 9px, #1e3fa4 0px 0px 7px, #d0d0d0 0px 0px 5px, #0b32a8 0px 0px 3px;
+    transition: all 0.5s;
+}
+
+.letterOff{
+    color: black;
+    text-shadow: none;
+    transition: all 0.5s;
+}
+.showName{
+    color: #747373 !important;
+    text-shadow: #747373 0px 0px 3px, #989797 0px 0px 5px, #ffffff 0px 0px 7px,#a487c1 0px 0px 9px !important;
+    transition: all 0.5s;
+}
+

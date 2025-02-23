@@ -11,9 +11,10 @@
         }
         return takeLetter;
     }
-    document.getElementsByTagName('header')[0].innerHTML = getLetter();
+let header = document.getElementsByTagName('header')[0]
+header.innerHTML = getLetter();
+
 let letters = document.querySelectorAll('.letter');     
-console.log(letters.length)
 
 function lightUpLetter() {
     let randomLetter = Math.floor(Math.random() * letters.length);
@@ -21,13 +22,13 @@ function lightUpLetter() {
         letters[randomLetter].classList.add('letterPurple');
         setTimeout(() => {
         letters[randomLetter].classList.add('letterOff');
-    }, 3000);
+    }, 500);
     }else{
         letters[randomLetter].classList.add('letterBlue');
         setTimeout(() => {
         letters[randomLetter].classList.add('letterOff');
-    }, 3000);
+    }, 500);
     }
 }
 
-setInterval(lightUpLetter, 500);
+setInterval(lightUpLetter, 100);

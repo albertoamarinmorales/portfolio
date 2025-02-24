@@ -14,7 +14,6 @@ header{
     color:black;
     transition: color 0.5s;
     overflow: hidden;
-    /* box-shadow: 0 0 10px #b24ee170, 0 0 30px #124dff61;   */
     animation: infinite 10s changeGlow;
 }
 

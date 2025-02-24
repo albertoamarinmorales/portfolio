@@ -27,3 +27,13 @@ function lightUpLetter() {
 }
 
 setInterval(lightUpLetter, 100);
+
+// window.addEventListener('scroll', function() {
+//     let navbar = document.querySelector('nav');
+//     if (window.scrollY > 230) {
+//       navbar.classList.add('show');
+//     } else {
+//         navbar.style.transition = '0.5s';
+//       navbar.classList.remove('show');
+//     }
+//   });

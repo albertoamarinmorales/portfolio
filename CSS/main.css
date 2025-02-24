@@ -1,8 +1,109 @@
 main{
     font-family: 'Dangrek';
-    width: 85%;
+    width: 100%;
+    height: fit-content;
+    margin-top:40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main section{
+    font-family: 'Dangrek';
+    width: 80%;
     height: 500px;
-    background-color: black;
     margin-top:40px;
     margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.tabs{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    color:white;
+    text-decoration: none;
+}
+
+.containTabs{
+    display: flex;
+    width: 50%;
+}
+
+.containTabs ul{
+    display: flex;
+    width: 100%;
+    cursor: pointer;
+}
+
+.containTabs ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    border: solid 1px #353535;
+    animation: borderGlows 10s infinite;
+    background-color: black;
+}
+
+.containTabs ul li:first-child{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.containTabs ul li:last-child{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.tab{
+    display: flex;
+    width: 10%;
+    list-style-type: none;
+    padding-left: 0; 
+}
+
+.emptyTabs{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.info{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border:1px solid;
+    animation: borderGlows 10s infinite;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px){  
+    nav div{
+        font-size: 1rem;
+    }
+    .containTabs ul li{
+      font-size: 0.75rem;
+    }
+}
+
+
+@keyframes borderGlows {
+    0% { border-color: #6f00a2; }
+    25% { border-color: #0b32a8; }
+    50% { border-color: #6f00a2; }
+    75% { border-color: #0b32a8; }
+    100% { border-color: #6f00a2; }
 }

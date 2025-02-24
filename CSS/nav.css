@@ -1,5 +1,7 @@
 nav{
-    position: fixed;
+    position: absolute;
+    /* opacity: 0;
+    transition: opacity 0.5s; */
     top:26%;
     left: 15%;
     display: flex;
@@ -10,7 +12,6 @@ nav{
     height: 60px;
     border:solid 4px black; 
     z-index: 9999;
-    box-shadow: 0 0 20px #b24ee170, 0 0 0px #124dff61;
     animation: infinite 10s changeGlow;
     border-radius: 5px;
 }
@@ -48,6 +49,9 @@ nav div:hover{
     text-shadow: #0b32a8 0px 0px 7px, #1e3fa4 0px 0px 16px;
 }
 
+/* nav.show {
+    opacity: 1;
+  } */
 
 @media screen and (max-width: 768px){  
     nav div{

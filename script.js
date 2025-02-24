@@ -37,3 +37,10 @@ setInterval(lightUpLetter, 100);
 //       navbar.classList.remove('show');
 //     }
 //   });
+
+function info(x) {
+    for (let i = 1; i <= 4; i++) {
+        document.getElementById(`info${i}`).style.display = 'none';
+    }
+    document.getElementById(`info${x}`).style.display = 'block';
+}

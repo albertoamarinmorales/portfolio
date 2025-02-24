@@ -15,6 +15,7 @@ header{
     transition: color 0.5s;
     overflow: hidden;
     animation: infinite 10s changeGlow;
+    user-select: none;
 }
 
 .letterPurple{

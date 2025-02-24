@@ -1,0 +1,56 @@
+nav{
+    position: fixed;
+    top:26%;
+    left: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 60px;
+    border:solid 4px black; 
+    z-index: 9999;
+    box-shadow: 0 0 20px #b24ee170, 0 0 0px #124dff61;
+    animation: infinite 10s changeGlow;
+    border-radius: 5px;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 25%;
+    background-color:rgb(26, 25, 25);
+    font-family: 'Dangrek';
+    font-size: 1.5rem;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+nav div:hover{
+    background:rgb(26, 25, 25);
+    transition: all 0.5s;
+}
+
+.aViolet a:hover{
+    color: #b34ee1;
+    text-shadow: #6f00a2 0px 0px 7px, #9144b4 0px 0px 16px;
+}
+
+.aBlue a:hover{
+    color: #3c63d7;
+    text-shadow: #0b32a8 0px 0px 7px, #1e3fa4 0px 0px 16px;
+}
+
+
+@media screen and (max-width: 768px){  
+    nav div{
+        font-size: 1rem;
+    }
+}

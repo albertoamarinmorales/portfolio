@@ -3,7 +3,7 @@
 
 🚀 I'm always looking to improve my code and explore modern development techniques. I believe in learning step by step, turning every challenge into an opportunity to grow.
 
-🖥️ Currently expanding my skill set:
+🖥️ Currently expanding my skill set:<br>
 
 Learning Git & GitHub
 Exploring Express.js, Laravel, and PHP

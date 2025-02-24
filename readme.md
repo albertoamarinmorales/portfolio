@@ -14,12 +14,13 @@
 
 ### 🛠️ Tech Stack
 - **Languages:** JavaScript (ES6+), PHP, HTML, CSS  
-- **Frameworks & Libraries:** Laravel, Bootstrap  
-- **Currently Learning:**  
+- **Frameworks & Libraries:** Bootstrap  
+- **Currently Learning:**
+  
   - 🏗️ Git & GitHub  
   - ⚡ Express.js & Laravel  
-  - 🌟 TypeScript, React, Java & Python (soon!)  
-  - 🗄️ Database Management (coming soon)  
+  - 🌟 TypeScript, React, Java & Python (soon!)
+  - 🗄️ Database Management & Laravel (coming soon)  
 
 ### 🎯 Interests
 - 🚀 Frontend Development  

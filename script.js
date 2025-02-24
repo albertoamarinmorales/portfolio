@@ -1,13 +1,9 @@
     let getLetter = () =>{
         let  letter = [' a ',' b ',' c ',' d ',' e ',' f ',' g ',' h ',' i ',' j ',' k ',' l ',' m ',' n ',' o ',' p ',' q ',' r ',' s ',' t ',' u ',' v ',' w ',' x ',' y ',' z '];
         let takeLetter = '';
-        for (let i = 0; i < 1350; i++) {
-           switch (i){
-            case 600:
-                takeLetter += `<div class="showName" id=$div${i}>ALBERTO</div>`;
-                break;
-            }
+        for (let i = 0; i < 600; i++) {
             takeLetter += `<div class="letter" id=$div${i}>${letter[Math.floor(Math.random() * 26)]}</div>`;
+
         }
         return takeLetter;
     }
@@ -32,3 +28,8 @@ function lightUpLetter() {
 }
 
 setInterval(lightUpLetter, 100);
+
+function screenWidth(){
+    let width = window.innerWidth;
+    return width;
+}

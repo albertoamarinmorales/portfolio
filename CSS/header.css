@@ -19,14 +19,12 @@ header{
 }
 
 .letterPurple{
-    color: #b34ee1;
-    text-shadow: #6f00a2 0px 0px 7px, #9144b4 0px 0px 16px;
     transition: all 0.5s;
+    animation: colorsP 1s linear;
 }
 .letterBlue{
-    color: #3c63d7;
-    text-shadow: #0b32a8 0px 0px 7px, #1e3fa4 0px 0px 16px;
     transition: all 0.5s;
+    animation: colorsB 1s linear;
 }
 
 .letterOff{
@@ -56,4 +54,36 @@ header{
     100% {
         box-shadow: #6f00a2 0px 0px 7px, #9144b4 0px 0px 16px;
     }
+}
+
+@keyframes colorsP{
+    0%{
+        color: black;
+        /* text-shadow: #000000 0px 0px 7px, #000000 0px 0px 16px; */
+    }
+    50%{
+    color: #b34ee1;
+    text-shadow: #6f00a2 0px 0px 7px, #9144b4 0px 0px 16px;
+    }
+    100%{
+        color: black;
+        /* text-shadow: #000000 0px 0px 7px, #000000 0px 0px 16px; */
+    }
+
+}
+
+@keyframes colorsB{
+    0%{
+        color: black;
+        /* text-shadow: #000000 0px 0px 7px, #000000 0px 0px 16px; */
+    }
+    50%{
+        color: #3c63d7;
+        text-shadow: #0b32a8 0px 0px 7px, #1e3fa4 0px 0px 16px;
+    }
+    100%{
+        color: black;
+        /* text-shadow: #000000 0px 0px 7px, #000000 0px 0px 16px; */
+    }
+
 }

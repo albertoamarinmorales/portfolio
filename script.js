@@ -14,29 +14,15 @@ let letters = document.querySelectorAll('.letter');
 function lightUpLetter() {
     let randomLetter = Math.floor(Math.random() * letters.length);
     if (randomLetter % 2 == 0){
-        letters[randomLetter].classList.add('letterPurple');
-        setTimeout(() => {
-        letters[randomLetter].classList.add('letterOff');
-    }, 500);
+        letters[randomLetter].classList.toggle('letterPurple');
     }else{
-        letters[randomLetter].classList.add('letterBlue');
-        setTimeout(() => {
-        letters[randomLetter].classList.add('letterOff');
-    }, 500);
+        letters[randomLetter].classList.toggle('letterBlue');
+        
     }
 }
 
-setInterval(lightUpLetter, 100);
+setInterval(lightUpLetter, 50);
 
-// window.addEventListener('scroll', function() {
-//     let navbar = document.querySelector('nav');
-//     if (window.scrollY > 230) {
-//       navbar.classList.add('show');
-//     } else {
-//         navbar.style.transition = '0.5s';
-//       navbar.classList.remove('show');
-//     }
-//   });
 
 function info(x) {
     for (let i = 1; i <= 4; i++) {

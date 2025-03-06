@@ -1,35 +1,22 @@
-<h1 align="center">👋 Hi! I'm Alberto Marín</h1>
+# Hi there! 👋 I'm Alberto Marín  
 
-<p align="center">
-💻 Web Developer in training | Passionate about JavaScript, PHP & Frontend  
-🚀 Turning logic challenges into learning opportunities  
-</p>
+## 🚀 About Me  
+I'm a **Web Application Developer** passionate about programming and technology. I'm currently working on my **Final Year Project**, which focuses on creating a web/app for women to safely return home at night by grouping up at designated meeting points.  
 
----
+## 💻 Tech Stack  
+- **Frontend:** JavaScript (ES6+), TypeScript, Bootstrap  
+- **Backend:** PHP  
+- **Databases:** SQL (MySQL)  
+- **Other:** Python, Java  
 
-### 🚀 About Me
-- 🔥 I love working with **JavaScript, PHP, and frontend development**  
-- 🎯 Focused on **logic challenges, DOM manipulation, and user experience**  
-- 📚 Always learning new technologies, step by step  
+## 🎯 Currently Learning  
+- TypeScript  
+- SQL (Databases)  
 
-### 🛠️ Tech Stack
-- **Languages:** JavaScript (ES6+), PHP, HTML, CSS  
-- **Frameworks & Libraries:** Bootstrap  
-- **Currently Learning:**
-  
-  - 🏗️ Git & GitHub  
-  - ⚡ Express.js & Laravel  
-  - 🌟 TypeScript, React, Java & Python (soon!)
-  - 🗄️ Database Management & Laravel (coming soon)  
+## 🎯 Next Goals  
+- React  
+- Laravel  
+- Java  
 
-### 🎯 Interests
-- 🚀 Frontend Development  
-- 🧩 Logic Programming  
-- 🌐 Web Technologies  
-- 📖 Continuous Learning  
-
----
-
-### 📫 Let's Connect!  
-I'm always open to sharing ideas and learning together.  
-Feel free to reach out! 🚀  
+## 📫 Connect with Me  
+Feel free to reach out! I'm always open to discussing new ideas and collaborating on exciting projects.  
